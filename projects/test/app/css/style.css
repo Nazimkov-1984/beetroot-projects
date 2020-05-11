@@ -1,0 +1,15 @@
+/*fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Girassol&family=Lobster&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	font-size: 100%;
+}
+
+.nav {
+	font-family: "Girassol", cursive;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIl92YXJzLnNjc3MiLCJfY29tbW9uLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsUUFBQTtBQUNBLDRGQUFZO0FDRFo7RUFDSSxTQUFTO0VBQ1QsVUFBVTtFQUNWLDhCQUFzQjtFQUF0QixzQkFBc0I7RUFDdEIsZUFBZSxFQUFBOztBQUVuQjtFQUNJLGdDREwyQixFQUFBIiwiZmlsZSI6InN0eWxlLmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi8qZm9udHMqL1xyXG5AaW1wb3J0IHVybCgnaHR0cHM6Ly9mb250cy5nb29nbGVhcGlzLmNvbS9jc3MyP2ZhbWlseT1HaXJhc3NvbCZmYW1pbHk9TG9ic3RlciZkaXNwbGF5PXN3YXAnKTtcclxuJEdpcmFzc29sIDogJ0dpcmFzc29sJywgY3Vyc2l2ZTtcclxuJExvYnN0ZXI6ICdMb2JzdGVyJywgY3Vyc2l2ZTtcclxuJE1haW5fZm9udF9zaXplOiAyNXB4OyIsIioge1xyXG4gICAgbWFyZ2luOiAwO1xyXG4gICAgcGFkZGluZzogMDtcclxuICAgIGJveC1zaXppbmc6IGJvcmRlci1ib3g7XHJcbiAgICBmb250LXNpemU6IDEwMCU7XHJcbn1cclxuLm5hdiB7XHJcbiAgICBmb250LWZhbWlseTogJEdpcmFzc29sO1xyXG59XHJcbiJdfQ== */
