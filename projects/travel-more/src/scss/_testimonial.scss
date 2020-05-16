@@ -1,0 +1,50 @@
+$styles: testimonial;
+.#{$styles} {
+   padding-top: 120px;
+   padding-bottom: 200px; 
+   background: url(../img/testimonial/testimonial_bg.png) no-repeat;
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   color:$white;
+    &__title {
+        text-align: center;
+        font-family: $aleo;
+        font-weight: 400;
+        font-size: $H360;
+        margin-bottom: 100px ;
+    }
+   &__main-wrapper {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+   &__text-wrapper {
+       padding: 48px 83px 48px 30px;
+       width: 666px;
+       background-color:$dark-grey; 
+       height: 284px;
+   }
+   &__cardtitle {
+       font-family: $josefin;
+       font-size: $H200;
+       font-weight: 400;
+       text-transform: uppercase;
+       margin-bottom: 48px;
+   }
+   &__cardtext:before {
+       font-family: Arial, Helvetica, sans-serif;
+    content: "“ "; /* Левая кавычка */
+    font-size: 40px; /* Размер текста кавычек */
+    font-weight: bold;
+    color: $main-color; /* Цвет кавычек */
+    line-height: 0; /* Текст не занимает место */
+   }
+   &__cardtext {
+    font-family: $josefin;
+    font-size: $H60;
+    font-weight: 300;
+    line-height: 20px;
+   }
+}

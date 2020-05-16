@@ -1,0 +1,36 @@
+$styles: nav;
+.#{$styles} {
+    padding-top: 29px;
+    padding-bottom: 32px;
+  @include flex-row (space-around, center);
+  background-color: $main-color;
+  &__logo {
+      display: block;
+      font-family: $josefin;
+      font-size: $H240;
+      font-weight: bold;
+      color: $white;
+  }
+  &__list {
+      @include flex-row (center, center);
+      list-style-type: none;
+  }
+  &__list__items {
+    margin-right:42px;
+  }
+  &__list__items__link {
+      text-decoration: none;
+      text-transform: uppercase;
+      font-family: $aleo ;
+      font-size: $H40;
+      font-weight: 400;
+      color: $white;
+      transition: all .5s;
+  }
+  &__list__items:last-child {
+      margin-right: 0px;
+  }
+  &__list__items__link:hover {
+      color: #ff6363;
+  }
+}

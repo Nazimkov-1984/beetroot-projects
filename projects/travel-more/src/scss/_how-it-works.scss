@@ -1,0 +1,32 @@
+$styles: how-it-works;
+.#{$styles} {
+ background-color: $dark-grey;
+ @include flex-col (center, center);
+padding-top: 8px;
+padding-bottom: 119px;
+ &__top-arc { 
+     display: flex;
+     justify-content: center;
+position: relative;
+top: 20px;
+right: 10px;
+z-index: 1;
+ }
+ &__items {
+     @include flex-col (center, center);
+     margin-right: 210px;
+ }
+ &__icons {
+     display: flex;
+ }
+ &__items:last-child {
+    margin-right: 0;
+}
+&__items__title {
+    font-family: $aleo;
+    font-size:  $H360;
+    font-weight: 400;
+    color: $white;
+}
+
+}

@@ -1,0 +1,66 @@
+$styles: why-choose-us;
+.#{$styles} {
+    background: url(../img/who_choose_us/who_choose_us_bg.png) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    display: flex;
+    justify-content: space-around;
+
+ &__text-wrapper {
+     @include flex-col (start, start);
+     width: 530px;
+     
+ }
+  &__title { 
+      font-family: $aleo;
+      font-size: $H360;
+      font-weight: 400;
+      color: $white;
+      margin-bottom: 62px;
+      margin-top: 84px;
+  }
+  &__text-top {
+    font-family: $josefin;
+    font-size: $H60;
+    font-weight: 300;
+    color: $white;
+    margin-bottom: 32px;
+    line-height: 25px;
+
+  }
+  &__text-botom {
+    font-family: $josefin;
+    font-size: $H60;
+    font-weight: 300;
+    color: $white;
+    margin-bottom:47px;
+    line-height: 25px;
+  }
+  &__button {
+      background-color: $main-color;
+      border: 1px solid transparent;
+      padding: 25px 38px 23px 39px;
+      transition: all .5s;
+  }
+&__button__link {
+    font-family: $aleo;
+    font-size: $H60;
+    font-weight: 400;
+    color: $white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+&__button:hover {
+    border: 1px solid $white;
+}
+&__img-wrapper {
+@include flex-col (start, center);
+}
+&__image-top {
+    margin-bottom: 5px;
+    position: relative;
+    right: 125px;
+}
+}

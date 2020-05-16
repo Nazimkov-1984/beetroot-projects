@@ -1,0 +1,55 @@
+$styles: main-top;
+.#{$styles} {
+  padding-top: 228px;
+  padding-bottom: 120px;
+background: url(../img/main-top/main-top-bg.png) no-repeat;
+background-size: cover;
+display: flex;
+justify-content: center;
+&__text-wrapper {
+    color:$white;
+    width: 478px;
+    padding: 50px 32px 50px 30px;
+    background: url(../img/main-top/main-top-bg-text.png);
+    position: relative;
+    right: 239px;
+}
+&__subtitle {
+    font-family: $josefin;
+    font-size: $H200;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+&__title {
+    font-family: $josefin;
+    font-size: $H200;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+&__text {
+    font-family: $josefin;
+    font-size: $H60;
+    font-weight: 300;
+    margin-bottom: 47px;
+    line-height: 25px;
+}
+&__button {
+    opacity: 100%;
+    background-color: $main-color;
+    border: 1px solid transparent;
+    padding: 25px 38px 23px 39px;
+    transition: all .5s;
+}
+&__button__link {
+    font-family: $aleo;
+    font-size: $H60;
+    font-weight: 400;
+    color: $white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+&__button:hover {
+    border: 1px solid $white;
+}
+}

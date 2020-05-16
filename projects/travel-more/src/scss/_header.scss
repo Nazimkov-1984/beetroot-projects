@@ -1,0 +1,80 @@
+$styles: header;
+.#{$styles} {
+   padding-top: 265px;
+   padding-bottom: 215px;
+  @include flex-col (center, center) ;
+   background: url(../img/header/header_bg.png) no-repeat;
+   background-size: cover;
+   &__title {
+    font-family: $josefin;
+    font-size: $H480;
+    text-transform: uppercase;
+    color:$white;
+    font-weight: 700;
+    margin-bottom: 15px;
+   }
+   &__subtitle {
+    font-family: $josefin;
+    font-size: $H220;
+    color:$white;
+    font-weight: 300;
+    margin-bottom: 49px;
+   }
+   &__form {
+       display: flex;
+       align-items: center;
+       margin-bottom: 120px;
+   }
+   &__form__input {
+       width: 500px;
+       height: 60px;
+       padding: 24px auto 26px auto;
+       color: $placeholder-color;
+       text-align: center;
+       font-family: $josefin;
+       font-weight: 300;
+       font-size: $H40;
+       border:none;
+   }
+   &__form__button {
+       background-color: $main-color;
+       border: 2px solid $white;
+       font-family: $aleo ;
+       font-size: $H40 ;
+       font-weight: 400;
+       color: $white;
+       height: 60px;
+       padding-left: 37px;
+       padding-right: 17px ;
+       display: flex;
+       align-items:center;
+       justify-content: center;
+       transition: all .5s;
+   }
+   &__form__button__ico {
+       margin-left: 14px;
+   }
+   &__form__button:hover {
+       cursor: pointer;
+       border: 2px solid $main-color;
+   }
+   &__scroll__text {
+    text-align: center;
+    font-family: $josefin;
+    font-weight: 300;
+    font-size: $H40;
+    color:$white;
+    margin-bottom: 14px;
+   }
+   &__arrow {
+    color:$white;
+    transform: rotate(90deg);
+    text-decoration: none;
+    transition: all .5s;
+
+   }
+   &__arrow:hover { 
+    color: $main-color
+
+   }
+}
