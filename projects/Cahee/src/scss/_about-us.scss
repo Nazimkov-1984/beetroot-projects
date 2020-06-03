@@ -10,15 +10,21 @@ $styles: about-us;
     &__text-top, &__text-bottom {
         color: $font_color_light;
         @include Raleway_Light_17;
+        line-height: 1.5;
     }
     &__text-top{
         margin-bottom: 24px;
+        
     }
-    @media (max-width: 769px) {
-        &__wrapper { flex-direction:column; justify-content: center; }
-        &__text-top { flex-wrap: wrap;}
-      }
-      @media (max-width: 576px) {
-        &__logo {width: 70%; height: 70%;}
-      }
+   @media (max-width: 375px) {
+       &__logo {
+           width: 345px;
+       }
+   }
+   @media (max-width: 375px) {
+       &__title {
+           font-size: 60px;
+           text-align: center;
+       }
+   }
 }

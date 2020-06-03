@@ -7,13 +7,30 @@ $styles :footer;
         @include Raleway_Light_16;
         color:$font_color_light;
     }
+    @media (max-width: 375px) {
+        &__text {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+    }
     &__autor {
         @include Raleway_Light_15;
         color:$font_color_light;  
+    }
+    @media (max-width: 375px) {
+        &__autor {
+            text-align: center;
+        }
     }
     &_autor-link  {
         font-weight: $font_wight_bold;
         color: $font_color_red;
         text-decoration: none;
+    }
+    @media (max-width: 375px) {
+        &__logo {
+            text-align: center;
+            margin-bottom: 10px;
+        }
     }
 }

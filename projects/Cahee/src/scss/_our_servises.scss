@@ -8,12 +8,21 @@ $styles: our-servises;
     }
     .our_servises__title {
         position: absolute;
-        top: 50%;
-        left:0 ;
-        width: 100%;
-        transform: translateY(-45px);
         @include Raleway_Bold_90;
         color: $font_color_light;
+        top: 40%;
+    }
+    @media (max-width:375px) {
+        .our_servises__title {
+            font-size: 60px;
+            text-align: center;
+        }
+    }
+    @media (max-width:768px) {
+        .our_servises__title  {
+            left: 15%;
+            
+        }
     }
     &__list-wrapper {
         display: flex;
@@ -44,14 +53,29 @@ $styles: our-servises;
         padding-bottom: 40px;
         border-right: 2px solid $color_border_our_servises;
     }
+    &__list__items__text a {
+        text-decoration: none;
+        color: $font_color_dark;
+        transition: all .7s;
+    }
+    &__list__items__text a:hover {
+        color: $color_top_line;
+    }
     &__list__items__text-big {
         text-align: center;
         padding-top: 24px;
         padding-bottom: 24px;
     }
-    @media (max-width: 576px) {
-        &__title-bg {width: 75%; height: 75%;}
-        &__button {justify-content: center;}
-       
+   @media (max-width: 375px) {
+       &__title-bg {
+           width: 345px;
+           padding-top: 26px;
+       }
+   }
+   @media (max-width: 768px) {
+    &__title-bg {
+        width: 768px;
+        padding-top: 26px;
+    }
 }
 }
