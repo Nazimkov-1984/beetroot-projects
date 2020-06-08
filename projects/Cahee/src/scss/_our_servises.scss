@@ -41,24 +41,21 @@ $styles: our-servises;
         margin-bottom: 0px;
     }
     &__list__items__img {
-        flex-basis: 25%;
         padding-left: 24px;
         padding-right: 24px;
     }
     &__list__items__text {
-        display: flex;
-        justify-content: center;
-        flex-basis: 75%;
         padding-top: 40px;
         padding-bottom: 40px;
         border-right: 2px solid $color_border_our_servises;
-    }
-    &__list__items__text a {
         text-decoration: none;
         color: $font_color_dark;
         transition: all .7s;
+        text-align: center;
+        width: 300px;
+    
     }
-    &__list__items__text a:hover {
+    &__list__items__text:hover {
         color: $color_top_line;
     }
     &__list__items__text-big {
